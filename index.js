@@ -28,8 +28,16 @@ const questions = [
     choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'NONE'],
     }, {
     type: 'input',
+    message: 'What is the use of your project?',
+    name: 'usage'
+    }, {
+    type: 'input',
     message: 'What command should be run to install dependencies?',
-    name: 'command'
+    name: 'installation'
+    }, {
+    type: 'input',
+    message: 'What command should be run to run tests?',
+    name: 'tests'
     }, {
     type: 'input',
     message: 'What does the user need to know about using the repo?',
